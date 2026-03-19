@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELAKIYA S | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef2ff;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#111827;
+color:white;
+position:sticky;
+top:0;
+}
+
+nav h2{
+font-size:22px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#6366f1,#3b82f6);
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero-sub{
+text-align:center;
+font-size:18px;
+margin-bottom:25px;
+}
+
+/* ICONS ABOVE RESUME */
+
+.social-icons{
+margin-bottom:20px;
+}
+
+.social-icons a{
+color:white;
+margin:0 12px;
+font-size:22px;
+text-decoration:none;
+}
+
+/* RESUME BUTTON */
+
+.resume-btn{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:12px 30px;
+background:white;
+color:#3b82f6;
+border-radius:6px;
+text-decoration:none;
+font-weight:500;
+}
+
+/* SECTION */
+
+section{
+padding:70px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:30px;
+margin-bottom:40px;
+color:#111827;
+}
+
+/* BOX */
+
+.box{
+background:#dbeafe;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.1);
+max-width:800px;
+margin:auto;
+text-align:center;
+line-height:1.7;
+}
+
+/* SKILLS */
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.skill{
+background:#dbeafe;
+padding:15px 35px;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* CERTIFICATIONS */
+
+.certifications ul{
+max-width:600px;
+margin:auto;
+list-style:none;
+padding:0;
+}
+
+.certifications li{
+margin-bottom:15px;
+}
+
+.certifications a{
+text-decoration:none;
+color:#1d4ed8;
+font-weight:500;
+}
+
+.certifications i{
+margin-right:8px;
+color:#60a5fa;
+}
+
+/* FOOTER */
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:32px;
+}
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>ELAKIYA S</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Project</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certifications">Certificates</a></li>
+<li><a href="#Contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+
+<h1>ELAKIYA S</h1>
+
+<p class="hero-sub">
+<i class="fa-solid fa-user-graduate" style="margin-right:8px;"></i>
+Pre-Final Year Student | Java Developer
+</p>
+
+<div class="social-icons">
+<a href="https://github.com/elakiya-cse" target="_blank"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com/in/elakiya-settu-55521a3b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="mailto:elakiyasettu2324@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+</div>
+
+<a href="https://drive.google.com/file/d/104mGzniYk4qK8NdmMVuFEUOcblGGdAjB/view?usp=sharing" download class="resume-btn">
+<i class="fa-solid fa-download"></i> Download Resume
+</a>
+
+</div>
+
+<section id="about">
+<h2 class="section-title">About</h2>
+<div class="box">
+<p>
+Passionate and motivated 3rd-year Computer Science Engineering student at 
+Panimalar Engineering College with strong problem-solving skills and a keen interest in software development,
+HTML, CSS and Java. Experienced in content creation and project development,
+including a Fit Flirt project in HTML and CSS. National-level chess player with a creative mindset, always eager to learn
+and contribute effectively in team environment.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills-container">
+<div class="skill">Java</div>
+<div class="skill">HTML,CSS,SQL</div>
+<div class="skill">COMMUNICATION</div>
+</div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+<div class="box">
+<h3>B.E Computer Science and Engineering</h3>
+<p>Panimalar Engineering College</p>
+<p>2023 - 2027</p>
+<p><strong>CGPA:</strong> 8.45</p><br>
+<h4>Higher Secondary Education</h4>
+<p>Percentage: 83%</p>
+</div>
+</section>
+
+<section id="certifications" class="certifications">
+
+<h2 class="section-title">Certificates</h2>
+
+<div class="box">
+
+<ul>
+
+<li>
+<a href="https://drive.google.com/file/d/1e6pI3IieMMXwLrzOoEwKzzYANCZNF7uE/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+AWS Cloud Support certificate
+</a>
+</li>
+
+<li>
+<a href="https://drive.google.com/file/d/1SnHxK-0LHVa2lsBwZ3tQrFFasamstNcI/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+Oracle Cloud Infrastructure 2024 Generative AI Certified
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1wZ8gmrQYt4U0s11ioL9lrPJKVnk0_gZ6/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+Nasscom - acquring data 
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1eYw_g70qcbW-eIpOdrG_wOOZ97UO0fj4/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+AICTF- Web Development(Learnflu)
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1JUkKIl1JBU3gip4oZzoVutFiWyC6EMlA/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+Intenshala-Web Development
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1krD67AqPy6bDpjXIeQPrhWRopjKhNVZ9/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+Intellipaate-Microsoft Azure
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1m_j9fiQNiARhc34tnzqP2ZnoDpj38E0w/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+NoviTech-Web Development
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1YSQaYkjfm25-p9TKCaGsNeV-SjB_aYFQ/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+LearnFlu Intenship-Web Development
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/1bRosSICX0nBqYV2W2q-GKcAUiAJKsKrb/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+UIPath-Automation Developer
+</a>
+</li>
+<li>
+<a href="https://drive.google.com/file/d/13TNSgkCRw0-0vRh-5EnWw1VbkDvw6aMC/view?usp=sharing" download>
+<i class="fas fa-file-pdf"></i>
+Automation Starter
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="projects">
+<h2 class="section-title">Project</h2>
+
+<div class="box">
+<h3>Smart Medical Kit</h3>
+<p>
+A Smart IoT-based medical kit designed to monitor vital health parameters like temperature, pulse rate, and oxygen level.
+</p>
+<br>
+<p><strong>Tools Used:</strong> Arduino, Raspberry Pi, Sensors, Mobile App, IoT Cloud, Python</p>
+</div>
+
+<br><br>
+
+<div class="box">
+<h3>Fit Flirt</h3>
+<p>
+Fit Flirt is a fun way of combining fitness and social interaction. It encourages healthy lifestyles and social engagement.
+</p>
+<br>
+<p><strong>Tools Used:</strong> Frontend, Database and Java</p>
+</div>
+
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+<div class="box">
+<p><strong>Phone:</strong> 9080691988</p>
+<p><strong>Email:</strong> elakiyasettu2324@gmail.com</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 ELAKIYA S | Java Developer</p>
+</footer>
+
+</body>
+</html>
